@@ -111,19 +111,6 @@
             <scope>test</scope>
         </dependency>
 
-        <!-- Test step #1: add TestBench dependencies to run JUnit 5 tests -->
-        <dependency>
-            <groupId>com.vaadin</groupId>
-            <artifactId>vaadin-testbench</artifactId>
-            <version>24.0.0.alpha2</version>
-            <scope>test</scope>
-        </dependency>
-        <dependency>
-            <groupId>com.vaadin</groupId>
-            <artifactId>vaadin-testbench-core-junit5</artifactId>
-            <version>9.0.0.alpha4</version>
-        </dependency>
-
     </dependencies>
 
     <build>
@@ -228,7 +215,6 @@
                         <configuration>
                             <trimStackTrace>false</trimStackTrace>
                             <enableAssertions>true</enableAssertions>
-                            <rerunFailingTestsCount>3</rerunFailingTestsCount>
                         </configuration>
                     </plugin>
                 </plugins>
