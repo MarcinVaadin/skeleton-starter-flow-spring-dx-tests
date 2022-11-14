@@ -4,7 +4,7 @@
 
 Integration tests are implemented using [Vaadin TestBench](https://vaadin.com/testbench). The tests take a few minutes to run and are therefore included in a separate Maven profile. We recommend running tests with a production build to minimize the chance of development time toolchains affecting test stability. To run the tests using Google Chrome, execute
 
-`mvn verify -Pit`
+`mvn verify -Pit,production`
 
 and make sure you have a valid TestBench license installed.
 
